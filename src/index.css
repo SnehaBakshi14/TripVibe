@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+@layer base {
+  body {
+    @apply font-sans antialiased text-gray-900 bg-gray-50;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Theme-specific variables */
+  .theme-minimalist {
+    @apply bg-minimalist-background text-minimalist-primary;
+  }
+  
+  .theme-colorful {
+    @apply bg-colorful-background text-colorful-primary;
+  }
+  
+  .theme-retro {
+    @apply bg-retro-background text-retro-primary;
+  }
+  
+  .theme-dark {
+    @apply bg-dark-background text-dark-primary;
+  }
+
+  /* Button styles for each theme */
+  .theme-minimalist button:not([class*="bg-"]):not([class*="text-"]) {
+    @apply bg-minimalist-surface text-minimalist-primary hover:bg-minimalist-border;
+  }
+  
+  .theme-colorful button:not([class*="bg-"]):not([class*="text-"]) {
+    @apply bg-colorful-surface text-colorful-primary hover:bg-colorful-border;
+  }
+  
+  .theme-retro button:not([class*="bg-"]):not([class*="text-"]) {
+    @apply bg-retro-surface text-retro-primary hover:bg-retro-border;
+  }
+  
+  .theme-dark button:not([class*="bg-"]):not([class*="text-"]) {
+    @apply bg-dark-surface text-dark-primary hover:bg-dark-border;
+  }
+  
+  /* Input styles for each theme */
+  .theme-minimalist input:not([type="checkbox"]):not([class*="bg-"]):not([class*="border-"]),
+  .theme-minimalist textarea:not([class*="bg-"]):not([class*="border-"]) {
+    @apply border-minimalist-border bg-minimalist-surface focus:ring-minimalist-accent focus:border-minimalist-accent;
+  }
+  
+  .theme-colorful input:not([type="checkbox"]):not([class*="bg-"]):not([class*="border-"]),
+  .theme-colorful textarea:not([class*="bg-"]):not([class*="border-"]) {
+    @apply border-colorful-border bg-colorful-surface focus:ring-colorful-accent focus:border-colorful-accent;
+  }
+  
+  .theme-retro input:not([type="checkbox"]):not([class*="bg-"]):not([class*="border-"]),
+  .theme-retro textarea:not([class*="bg-"]):not([class*="border-"]) {
+    @apply border-retro-border bg-retro-surface focus:ring-retro-accent focus:border-retro-accent;
+  }
+  
+  .theme-dark input:not([type="checkbox"]):not([class*="bg-"]):not([class*="border-"]),
+  .theme-dark textarea:not([class*="bg-"]):not([class*="border-"]) {
+    @apply border-dark-border bg-dark-surface focus:ring-dark-accent focus:border-dark-accent;
+  }
+
+  /* Border styles for each theme */
+  .theme-minimalist .border:not([class*="border-"]) {
+    @apply border-minimalist-border;
+  }
+  
+  .theme-colorful .border:not([class*="border-"]) {
+    @apply border-colorful-border;
+  }
+  
+  .theme-retro .border:not([class*="border-"]) {
+    @apply border-retro-border;
+  }
+  
+  .theme-dark .border:not([class*="border-"]) {
+    @apply border-dark-border;
+  }
+}
