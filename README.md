@@ -1,60 +1,64 @@
 # ✈️ TripVibe – Your Modern Trip Planner
 
-> *Winner of the **Travel Tech Hackathon 2025***  
+TripVibe is a sleek and responsive trip planning application that brings together countdowns, daily itineraries, weather insights, packing lists, and collaborative planning—all in one beautiful retro interface.
 
-**TripVibe** is a sleek, responsive trip planning application built with React and Tailwind CSS. Designed for solo travelers and groups alike, it simplifies travel planning with modern features and a beautiful UI.  
+🌍 Live Demo: [https://travel-wander-lust.netlify.app/](https://travel-wander-lust.netlify.app/)
 
-![TripVibe Screenshot](https://images.pexels.com/photos/7412069/pexels-photo-7412069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+![TripVibe Screenshot](https://travel-wander-lust.netlify.app/1436ed36-caca-4cf5-8abe-8161807c2be7.png)
 
 ---
 
 ## 🚀 Features
 
-- 🎯 **Interactive Countdown Timer**  
-  Countdown to your departure in real-time.
+- 🕒 Live Countdown  
+  Track time left before your trip begins.
 
-- 🗓 **Daily Planner**  
-  Organize your itinerary day-by-day with ease.
+- 📅 Day-wise Planner  
+  Organize activities day-by-day.
 
-- 🎒 **Smart Packing List**  
-  Auto-categorized checklist with progress tracking.
+- 🧳 Packing List with Categories  
+  Auto-sort essentials with checkboxes and progress bars.
 
-- ☀️ **Live Weather Integration**  
-  Real-time weather updates for your destination.
+- 🌦️ Integrated Weather Forecast  
+  Stay updated with real-time destination weather.
 
-- 🎨 **Customizable Themes**  
-  Choose from 4 unique styles:
-  - Minimalist – Clean & focused  
-  - Colorful – Bright & playful  
-  - Retro – Vintage vibes  
-  - Dark – Night-friendly interface
+- 🎨 Theme Customizer  
+  Four curated themes:
+  - Minimalist
+  - Colorful
+  - Retro (default)
+  - Dark
 
-- 👥 **Collaborative Planning**  
-  Share a unique trip URL for group editing.
+- 🧑‍🤝‍🧑 Collaborative Planning  
+  Share your trip link and plan together in real-time.
 
-- 📱 **Responsive Design**  
-  Perfect on desktop, tablet, and mobile.
+- 📱 Mobile-First Design  
+  Looks perfect across all screen sizes.
 
-- 🌐 **Offline Support**  
-  Plan your trip anytime—even without internet.
+- ⚡ Offline Mode  
+  Your data stays with you—no internet needed.
 
-- 💾 **Local Storage Integration**  
-  Your data is saved locally—no sign-in required.
+- 💾 Auto-Save with Local Storage  
+  Persistent data across sessions without sign-in.
 
 ---
 
 ## 💻 Tech Stack
 
-| Frontend     | Libraries & Tools           | APIs             |
-|--------------|-----------------------------|------------------|
-| React 18     | TypeScript, Tailwind CSS    | OpenWeatherMap   |
-| Vite         | Lucide Icons, date-fns      |                  |
-| Local Storage API |                         |                  |
+| Category     | Tools Used                          |
+|--------------|-------------------------------------|
+| Frontend     | React 18, Vite, TypeScript          |
+| Styling      | Tailwind CSS, Lucide Icons          |
+| State Mgmt   | LocalStorage API                    |
+| Utilities    | date-fns                            |
+| APIs         | OpenWeatherMap                      |
 
 ---
 
-## 🏃‍♂️ Quick Start
+## 🏁 Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/tripvibe.git
+```bash
+git clone https://github.com/yourusername/tripvibe.git
+cd tripvibe
+npm install
+npm run dev
