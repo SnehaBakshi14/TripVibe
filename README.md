@@ -3,8 +3,9 @@
 TripVibe is a sleek and responsive trip planning application that brings together countdowns, daily itineraries, weather insights, packing lists, and collaborative planning—all in one beautiful retro interface.
 
 🌍 Live Demo: [https://travel-wander-lust.netlify.app/](https://travel-wander-lust.netlify.app/)
+![Screenshot 2025-05-18 183157](https://github.com/user-attachments/assets/311011b0-c131-4dad-a685-e31ebd43a6f3)
 
-![TripVibe Screenshot](https://travel-wander-lust.netlify.app/1436ed36-caca-4cf5-8abe-8161807c2be7.png)
+
 
 ---
 
